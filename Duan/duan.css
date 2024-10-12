@@ -1,0 +1,40 @@
+
+.Continer{
+    max-width: 960px;
+    margin: 0px auto;
+}
+#head{
+    background-color: #F5DEB3;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+#logo img{
+    padding: 5px 0px;
+    left: 20%;
+}
+#logo img{
+    max-width: 50px;
+    height: auto;
+}
+
+#menu{
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+    padding: 0;  
+}
+#menu li a{
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    
+}
+#menu li a:hover {
+    background-color:#B8860B;
+}
