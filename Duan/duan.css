@@ -5,6 +5,7 @@
 }
 #head{
     background-color: #F5DEB3;
+    border:4px solid  #00727a;
 }
 nav{
     display: flex;
@@ -17,14 +18,14 @@ nav{
     left: 20%;
 }
 #logo img{
-    max-width: 50px;
+    max-width: 30px;
     height: auto;
 }
 
 #menu{
     display: flex;
     list-style: none;
-    margin-top: 30px;
+    margin-top: 40px;
     padding: 0;  
 }
 #menu li a{
@@ -38,3 +39,83 @@ nav{
 #menu li a:hover {
     background-color:#B8860B;
 }
+.box{
+    height: 520px;
+    background-image: url(./heading.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #00727a;
+    border: 4px solid  #00727a;
+    border-radius: 15px;
+    margin-top: -10px;
+}
+.heading{
+   width: 500px;
+   height: 200px;
+   background-color:papayawhip;
+  border: 2px solid orangered;
+  border-radius: 15px;
+  margin: 0px auto;
+  margin-top: -70px;
+  text-align: center;
+  
+}
+
+
+
+.imga{
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #00727a;
+    border: 4px solid  #00727a;
+    margin-top: -10px;
+}
+.containerimg {
+    display: flex;
+    align-items: center;
+    width: 90%; /* Chiều rộng của container (80% của màn hình) */
+    margin: 0 auto; /* Căn giữa container theo chiều ngang */
+    padding: 10px; /* Khoảng cách bên trong container */
+    background-color: rgb(206, 238, 236); /* Màu nền */
+    border: 2px solid #00727a; /* Viền container */
+    border-radius: 15px; /* Bo tròn các góc */
+    border-bottom: none;
+    align-items: center; /* Căn giữa theo chiều dọc */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tạo bóng đổ */
+    justify-content: space-between; /* Đẩy hình và chữ cách đều 2 bên */
+  }
+  
+  .image {
+    width: 350px; /* Kích thước hình ảnh */
+    height: auto; /* Tự điều chỉnh chiều cao */
+    margin-right: 100px; /* Khoảng cách giữa hình và chữ */
+  }
+  
+  .text {
+    flex-grow: 1; /* Để chữ chiếm không gian còn lại */
+    font-size: 65px;
+    font-style: sans-serif;
+
+  }
+.containerabc {
+    display: flex;
+    align-items: center;
+    width: 98%; 
+    margin: 0 auto; 
+    padding: 10px; 
+    background-color: #f4f4f4; 
+    border: 2px solid #00727a; 
+    border-radius: 15px;
+    align-items: center; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    justify-content: space-between;
+}
+.imageabc {
+    width: 450px; 
+    margin-right: 0px; 
+    margin: auto;
+    border-radius: 15px; 
+  }

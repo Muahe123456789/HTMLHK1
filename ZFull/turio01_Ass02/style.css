@@ -1,0 +1,33 @@
+#Logo {
+    color: white;
+    font-size: 33pt;
+    text-align: blod;
+    padding: 14px 16px;
+    text-shadow: 2px 2px 2px yellow;
+
+}
+
+.myNav {
+    width: 100%;
+    background-color: yellow;
+    overflow: auto;
+}
+
+.myNav a {
+    width: 14%;
+    float: left;
+    text-align: center;
+    font-size: 15pt;
+    color: aqua;
+    text-decoration: none;
+    padding: 15px 2px;
+}
+
+.myNav a:hover {
+    background-color: chocolate;
+}
+
+footer{
+    position: absolute
+    bottom: 0px ;
+}
